@@ -2,10 +2,10 @@ import loadAdapter from '../AdapterLoader';
 import Parse from 'parse/node';
 import AuthAdapter from './AuthAdapter';
 
-const apple = require('./apple');
+// const apple = require('./apple');
 const gcenter = require('./gcenter');
 const gpgames = require('./gpgames');
-const facebook = require('./facebook');
+// const facebook = require('./facebook');
 const instagram = require('./instagram');
 const linkedin = require('./linkedin');
 const meetup = require('./meetup');
@@ -38,10 +38,10 @@ const anonymous = {
 };
 
 const providers = {
-  apple,
+  // apple,
   gcenter,
   gpgames,
-  facebook,
+  // facebook,
   instagram,
   linkedin,
   meetup,
